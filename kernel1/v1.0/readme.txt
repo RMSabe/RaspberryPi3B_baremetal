@@ -24,7 +24,7 @@ run "arm-none-eabi-ld kernel.o -o kernel.elf" to generate the final ELF executab
 run "arm-none-eabi-objcopy -O binary kernel.elf kernel7.img" to convert the ELF executable to raw binary. Notice: raw binary file must be named "kernel7.img".
 Just in case, I left a "build.sh" file to help.
 
-When loading the code, I few boot binaries will be needed to load and run the kernel.
+When loading the code, a few boot binaries will be needed to load and run the kernel.
 These binaries can be found on the Raspberry Pi GitHub repo.
 More specifically in this path: https://github.com/raspberrypi/firmware/tree/master/boot/
 
